@@ -1,0 +1,30 @@
+1. Find all occurence of substring in the given string?
+
+str1="what we think we become,what it is"
+str1.find("we")
+output:5
+str1.rfind("we")
+ouput:24
+str1.find("what")
+output:0
+str1.rfind("what")
+Output"24
+str1.count("what")
+Ouput:2
+str1.index("we")
+Output:5
+
+2. Find lower and upper functions
+
+str1="python"
+str2="LEARN"
+
+str1.upper()
+Output:'PYTHON'
+str2.lower()
+output:learn
+
+str1.islower()
+Output:True
+str2.isupper()
+output:true
