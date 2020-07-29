@@ -1,0 +1,26 @@
+1.TO CREATE A NEW DICTIONARY IN WHICH KEYS BECOMES VALUES AND VALUES BECOMES KEYS
+
+dict1 = {21:"FTP",22:"SSH",23:"telnet",80:"http"} 
+dict22 ={value:key for key,value in dict1.items()}
+print("The output:",dict2)
+The output: {'ftp': 21, 'ssh': 22, 'telnet': 23, 'http': 80}
+
+2.  MAKE A NEW LIST WHICH CONTAINS THE SUM OF TUPLE
+
+list1=[(1,2),(3,4),(5,6),(4,5)]
+res=[]
+for each in range(0,len(list1)):
+    a,b=list1[each]
+    res.append(a+b)
+print("sum of tuple:"res)
+
+output:sum of tuple:[3, 7, 11, 9]
+
+3. To make the elements in the inner list and tuple to the outer list
+
+list1=[(1,2,3),[1,2],['a','hit','less']]
+list2=[]
+list2=[i for each in list1 for i in each]
+print (list2)
+output:
+[1, 2, 3, 1, 2, 'a', 'hit', 'less']
